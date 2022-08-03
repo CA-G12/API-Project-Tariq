@@ -100,6 +100,10 @@ h1 {
   display: flex;
   align-items: center;
 }
+.imgAndWord {
+  justify-content: flex-start;
+
+}
 .recpie text {
   font-size: 18px;
   font-weight: 500;
@@ -157,4 +161,40 @@ h1 {
     flex-direction: column;
   }
 }
+@media only screen and (max-width: 900px) and (min-width: 600px)  {
+  .form {
+    flex-direction: column;
+  }
+  #boxInput {
+    width: 350px;
+  }
+  .secInForm {
+    margin: 15px 0;
+  }
+  .imgAndWord {
+    flex-direction: column;
+    justify-content: unset;
+
+  }
+  .recpie text {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 40px;
+  }
+  .apiShow {
+    justify-content: center;
+  }
+  .secInForm {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 1300px ) and (min-width: 900px)  {
+.recpie text {
+  position: absolute;
+  font-size: 13px;
+}
+}
+
+
 /* --------------------------------- End About Responsive --------------------------------- */
