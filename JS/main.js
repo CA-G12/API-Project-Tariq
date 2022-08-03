@@ -14,5 +14,3 @@ const fetch = (url, cb) => {
   xhr.open("GET", url, true);
   xhr.send();
 };
-let value = "galaxy";
-url = `https://pixabay.com/api/?key=29008119-c41f48041cc988dc96b666093&q=${value}&total=1`;
