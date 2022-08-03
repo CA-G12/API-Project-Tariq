@@ -1,6 +1,6 @@
 # API-Project-TariqSada/TariqHisham
 
-description...
+We make this website that is help users to search for foods, then show a photo and the recpie for it.
 
 ## Links
 
