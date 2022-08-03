@@ -1,55 +1,83 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap%27");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    transition: all 0.25s ease-in-out;
-    font-family: "Poppins", sans-serif;
-  }
-  body {
-    background: #5a5858;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.25s ease-in-out;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #5a5858;
+}
+/* --------------------------------- Start About Header --------------------------------- */
+header {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+}
+h1 {
+  color: #fff;
+}
+/* --------------------------------- End About Header --------------------------------- */
 
-  }
-  /* --------------------------------- Start About Header --------------------------------- */
-  header {
-    display: flex;
-    justify-content: center;
-    padding: 20px 0px;
-  }
-  h1 {
-    color: #fff;
-  }
-  /* --------------------------------- End About Header --------------------------------- */
-  
-  /* --------------------------------- Start About Main --------------------------------- */
-  .secInForm {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .form {
-    display: flex;
-    justify-content: space-around;
-  }
-  .secInForm label {
-    font-size: 19px;
-    font-family: monospace;
-    font-weight: 800;
-    color: #fff;
-  }
-  .secInForm input {
-    margin: 20px;
-    outline: none;
-    border: none;
-    border-radius: 10px;
-    padding: 8px 20px;
-    color: #fff;
-  }
-  .secInForm button {
-    padding: 6px 19px;
-    border: 2px solid #201f1f;
-    border-radius: 8px;
-    font-size: 15px;
-  }
-  /* --------------------------------- End About Main --------------------------------- */
+/* --------------------------------- Start About Main --------------------------------- */
+.secInForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.secInForm small {
+  font-size: 15px;
+  font-weight: 300;
+}
+.form {
+  display: flex;
+  justify-content: space-around;
+}
+.secInForm label {
+  font-size: 19px;
+  font-family: monospace;
+  font-weight: 800;
+  color: #fff;
+}
+.secInForm input {
+  margin: 20px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 20px;
+}
+.secInForm button {
+  padding: 6px 19px;
+  border: 2px solid #201f1f;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.apiShow {
+  width: 350px;
+  height: 350px;
+  background-color: #fff;
+  margin: 60px auto 0px auto;
+  border-radius: 10px;
+  border: 2px solid #464646;
+}
+.apiShow p {
+  margin: 5px;
+  padding: 5px;
+}
+.edit {
+  display: flex;
+  justify-content: flex-start;
+}
+.quote {
+  margin-top: 35px;
+}
+.img {
+  max-width: 100%;
+  padding: 16px;
+  border-radius: 37px;
+}
+
+/* --------------------------------- End About Main --------------------------------- */
