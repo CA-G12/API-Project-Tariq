@@ -8,7 +8,12 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background: #5a5858;
+  background-image: linear-gradient(to bottom, rgba(8, 93, 32, 0.455), rgba(255, 0, 25, 0.373))
+                    ,url("https://www.kent.co.in/blog/wp-content/uploads/2017/07/Are-You-Sure-You-Are-Eating-Healthy.jpg")
+;
+background-repeat: no-repeat;
+background-size: 100%;
+  
 }
 /* --------------------------------- Start About Header --------------------------------- */
 header {
@@ -62,12 +67,12 @@ h1 {
   cursor: pointer;
 }
 .apiShow {
-  width: 350px;
-  height: 350px;
+  width: 100%;
+  height: 400px;
   background-color: #fff;
   margin: 60px auto 0px auto;
-  border-radius: 10px;
-  border: 2px solid #464646;
+/*   border-radius: 10px;
+ */  border: 2px solid #464646;
 }
 .apiShow p {
   margin: 5px;
@@ -80,13 +85,30 @@ h1 {
 .quote {
   margin-top: 35px;
 }
-.img {
+/* img {
+  max-width: 100%;
+  padding: 16px;
+  border-radius: 37px;
+} */
+
+.apiShow {
   max-width: 100%;
   padding: 16px;
   border-radius: 37px;
 }
 
 /* --------------------------------- End About Main --------------------------------- */
+
+/* footer{
+  display: flex;
+  align-items: flex-end;
+  justify-self: end;
+ align-self: auto;
+  height: 20px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #1b0238;
+} */
 /* --------------------------------- Start About Responsive --------------------------------- */
 @media only screen and (max-width: 600px) {
   .form {
