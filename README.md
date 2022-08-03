@@ -1,22 +1,16 @@
 # API-Project-TariqSada/TariqHisham
 
-description...
+We make this website that is help users to search for foods, then show a photo and the recpie for it.
 
 ## Links
 
-- Live Link ...
-
-## Problem
-
-sometimes pepole finds buy products frome actual store is tired,
-and some pepole have problem with moving out of door,
-
-## Solution
-
-user can buy products from his home, with easy and flexable way.
+- Live Link 
 
 # User Story
-...
+
+- Anyone can access to our website as user.
+- The user enter the name for any type food in the search box, then the website should access to two APIs.
+- After that will showing one photo that ralates to the input and the recpie for make this food.
 
 ## How To clone Our App:
 
@@ -26,18 +20,11 @@ user can buy products from his home, with easy and flexable way.
 - Type -> `code .`
 - Navigate to the live server from the HTML file.
 
-## How Test Our App
-
-- Open gitBash where project path is.
-- Type -> `node install`
-- then Type -> `npm test`
-
 ## Technologies:
 
 - HTML
 - CSS
 - javascript
-- NPM
 
 ## Team members:
 
