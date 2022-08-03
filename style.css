@@ -13,8 +13,10 @@ body {
 /* --------------------------------- Start About Header --------------------------------- */
 header {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 20px 0px;
+  margin: 0px 20px;
+
 }
 h1 {
   color: #fff;
@@ -24,7 +26,7 @@ h1 {
 /* --------------------------------- Start About Main --------------------------------- */
 .secInForm {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 .secInForm small {
@@ -46,7 +48,11 @@ h1 {
   outline: none;
   border: none;
   border-radius: 10px;
-  padding: 8px 20px;
+  padding: 8px 36px;
+}
+.input i {
+  position: absolute;
+  padding: 30px;
 }
 .secInForm button {
   padding: 6px 19px;
@@ -81,3 +87,13 @@ h1 {
 }
 
 /* --------------------------------- End About Main --------------------------------- */
+/* --------------------------------- Start About Responsive --------------------------------- */
+@media only screen and (max-width: 600px) {
+  .form {
+    flex-direction: column;
+  }
+  .secInForm {
+    margin: 15px 0;
+  }
+}
+/* --------------------------------- End About Responsive --------------------------------- */
