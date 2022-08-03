@@ -13,7 +13,7 @@ We make this website that is help users to search for foods, then show a photo a
 - After that will showing one photo that ralates to the input and the recpie for make this food.
 
 ## How To clone Our App:
-
+![clone from gihub](https://user-images.githubusercontent.com/105603919/182623257-0b73d3d0-cdae-4c60-80c1-3c3e233fca02.png)
 - Open gitBash wherever you want to save the project on your device.
 - Clone the repository to your device (`git clone repo link`).
 - Enter repo `cd nameOfRepo`
