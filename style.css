@@ -122,16 +122,6 @@ h1 {
 
 /* --------------------------------- End About Main --------------------------------- */
 
-/* footer{
-  display: flex;
-  align-items: flex-end;
-  justify-self: end;
- align-self: auto;
-  height: 20px;
-  font-size: 14px;
-  color: #fff;
-  background-color: #1b0238;
-} */
 /* --------------------------------- Start About Responsive --------------------------------- */
 @media only screen and (max-width: 600px) {
   .form {
