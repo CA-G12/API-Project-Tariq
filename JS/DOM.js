@@ -18,18 +18,21 @@ fetch(recipeUrl, (obj) => {
 
 searchBtn.addEventListener("click", (event) => {
 
-  event.preventDefault();
-  const inputValue = boxInput.value;
-  imgDiv.textContent = ""
-  recipe.textContent = ""
-  const randomNum2 = Math.floor(Math.random() * 10) + 1;
-  imgDiv.innerHTML += `<img src="https://foodish-api.herokuapp.com/images/${inputValue}/${inputValue}${randomNum2}.jpg" alt="${inputValue}" class="img">`
-  recipeUrl = `https://www.themealdb.com/api/json/v1/1/search.php?s=${inputValue}`
+  if (boxInput.textContent != "") {
+    event.preventDefault();
+    const inputValue = boxInput.value;
+    boxInput.textContent = ""
+    imgDiv.textContent = ""
+    recipe.textContent = ""
+    const randomNum2 = Math.floor(Math.random() * 10) + 1;
+    imgDiv.innerHTML += `<img src="https://foodish-api.herokuapp.com/images/${inputValue}/${inputValue}${randomNum2}.jpg" alt="${inputValue}" class="img">`
+    recipeUrl = `https://www.themealdb.com/api/json/v1/1/search.php?s=${inputValue}`
 
-  fetch(recipeUrl, (obj) => {
-    console.log(obj)
-    recipe.innerHTML += `<text>
-                ${obj.meals[0].strInstructions}
-    </text>`
-  })
+    fetch(recipeUrl, (obj) => {
+      recipe.innerHTML += `<text>
+                    ${obj.meals[0].strInstructions}
+        </text>`
+    })
+  }
+
 })
