@@ -18,10 +18,10 @@ fetch(recipeUrl, (obj) => {
 
 searchBtn.addEventListener("click", (event) => {
 
-  if (boxInput.textContent != "") {
+ 
     event.preventDefault();
     const inputValue = boxInput.value;
-    boxInput.textContent = ""
+    
     imgDiv.textContent = ""
     recipe.textContent = ""
     const randomNum2 = Math.floor(Math.random() * 10) + 1;
@@ -33,6 +33,7 @@ searchBtn.addEventListener("click", (event) => {
                     ${obj.meals[0].strInstructions}
         </text>`
     })
+    
   }
 
-})
+)
