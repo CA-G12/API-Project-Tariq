@@ -1,4 +1,4 @@
-# API-Project-TariqSada/TariqHisham
+# API-Project-TariqAbuSada/TariqHisham
 
 We make this website that is help users to search for foods, then show a photo and the recpie for it.
 
@@ -28,5 +28,5 @@ We make this website that is help users to search for foods, then show a photo a
 
 ## Team members:
 
-- [Tariq Esa AbuSada](https://github.com/tariqabusada)
-- [Tariq Hisham AbuAqlain](https://github.com/tareq-abuaqlain)
+- [Tariq Abu Sada](https://github.com/tariqabusada)
+- [Tariq Abu Aqlain](https://github.com/tareq-abuaqlain)
